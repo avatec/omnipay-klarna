@@ -1,0 +1,13 @@
+{
+  "name": "avatec/omnipay-klarna",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Klarna\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "~3.0",
+    "guzzlehttp/guzzle": "^6.0|^7.0"
+  }
+}
